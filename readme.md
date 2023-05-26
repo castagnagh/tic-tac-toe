@@ -11,7 +11,7 @@
 ![Start Landscape](image/imageLandscape1.png)
 
 
-![1vs1 Option Portrait](image/imagePortrait1vs1.png)
+![1vs1 Option Portrait](image/imagePortait1vs1.png)
 ![1vs1 Option Landscape](image/imageLandscape1vs1.png)
 
 
