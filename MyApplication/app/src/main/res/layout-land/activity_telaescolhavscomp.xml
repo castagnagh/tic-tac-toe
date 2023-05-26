@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="70sp"
+        android:fontFamily="@font/press_start_2p"
+        android:text="Escolha:"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/xis"
+            android:layout_width="80sp"
+            android:layout_height="83sp"
+            android:layout_weight="1"
+            android:text="X"
+            android:textSize="52dp"
+            android:backgroundTint="@color/corBotao"
+            android:textColor="@color/black"
+            android:fontFamily="@font/press_start_2p"
+            android:layout_marginRight="20sp"/>
+
+        <Button
+            android:id="@+id/bolinha"
+            android:layout_width="80sp"
+            android:layout_height="83sp"
+            android:text="0"
+            android:textSize="52dp"
+            android:backgroundTint="@color/corBotao"
+            android:textColor="@color/black"
+            android:fontFamily="@font/press_start_2p"
+            android:layout_marginLeft="20sp"/>
+    </LinearLayout>
+
+</LinearLayout>

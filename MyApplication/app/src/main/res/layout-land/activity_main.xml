@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:fontFamily="@font/press_start_2p"
+        android:text="@string/txtJogoVelha"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/lottieAnimationView"
+                android:layout_width="280dp"
+                android:layout_height="280dp"
+                android:layout_marginLeft="20sp"
+                android:layout_marginTop="20sp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center">
+                <Button
+                    android:id="@+id/button1v1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="24dp"
+                    android:text="@string/botao1V1"
+                    android:backgroundTint="@color/corBotao"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/press_start_2p"
+                    android:layout_marginTop="45sp"
+                    android:layout_gravity="center">
+                </Button>
+
+                <Button
+                    android:id="@+id/button1vcomp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="88dp"
+                    android:text="@string/botao1vscomp"
+                    android:backgroundTint="@color/corBotao"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/press_start_2p"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+</LinearLayout>
